@@ -1,5 +1,14 @@
-UM Laundry JSON API Notes
+UM Laundry README
 ==========
+
+With the UM Laundry app you can:
+
+* View the status of washers and dryers at the University of Michigan
+* See the time remaining for machines in use
+* Set notifications for when washers and dryers will be finished
+* Set Favorite Rooms for easy access
+
+# API Information
 
 AJAX JS URL: http://housing.umich.edu/sites/www.housing.umich.edu/modules/hsg_laundry/hsg-laundry-ajax2.js
 
