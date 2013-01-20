@@ -12,7 +12,9 @@ With the UM Laundry app you can:
 
 AJAX JS URL: http://housing.umich.edu/sites/www.housing.umich.edu/modules/hsg_laundry/hsg-laundry-ajax2.js
 
-getBuildings() -> http://housing.umich.edu/laundry-locator/locations/0
+## getBuildings() 
+
+http://housing.umich.edu/laundry-locator/locations/0
 
     {"locations": [
         {"loc": {
@@ -22,7 +24,9 @@ getBuildings() -> http://housing.umich.edu/laundry-locator/locations/0
         ...
     ]}
 
-getRooms(BUILDING) -> http://housing.umich.edu/laundry-locator/rooms/BUILDING/0
+## getRooms(BUILDING) 
+
+http://housing.umich.edu/laundry-locator/rooms/BUILDING/0
 
     {"rooms":[
         {"room": {
@@ -32,7 +36,9 @@ getRooms(BUILDING) -> http://housing.umich.edu/laundry-locator/rooms/BUILDING/0
         ...
     ]}
 
-getStatus(BUILDING, ROOM = 0) -> http://housing.umich.edu/laundry-locator/status/BUILDING/ROOM/0
+## getStatus(BUILDING, ROOM = 0) 
+
+http://housing.umich.edu/laundry-locator/status/BUILDING/ROOM/0
 
     {"statuses": [
         {"stat": {
@@ -42,7 +48,9 @@ getStatus(BUILDING, ROOM = 0) -> http://housing.umich.edu/laundry-locator/status
         ...
     ]}
 
-getReport(BUILDING, ROOM = 0, STATUS = 0) -> http://housing.umich.edu/laundry-locator/report/BUILDING/ROOM/STATUS/0
+## getReport(BUILDING, ROOM = 0, STATUS = 0) 
+
+http://housing.umich.edu/laundry-locator/report/BUILDING/ROOM/STATUS/0
 
     30|| /* Number of results */
     <table class="mach_disp">
