@@ -8,6 +8,8 @@ With the UM Laundry app you can:
 * Set notifications for when washers and dryers will be finished
 * Set Favorite Rooms for easy access
 
+iTunes Store Page: https://itunes.apple.com/us/app/um-laundry/id455514358
+
 # API Information
 
 AJAX JS URL: http://housing.umich.edu/sites/www.housing.umich.edu/modules/hsg_laundry/hsg-laundry-ajax2.js
