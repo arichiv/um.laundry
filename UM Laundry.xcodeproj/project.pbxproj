@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		035B237B17AE84860020BBC9 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035B237A17AE84860020BBC9 /* FacebookSDK.framework */; };
 		269F0D44160B9A7900BABC98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269F0D43160B9A7900BABC98 /* UIKit.framework */; };
 		269F0D46160B9A7900BABC98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269F0D45160B9A7900BABC98 /* Foundation.framework */; };
 		269F0D48160B9A7900BABC98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269F0D47160B9A7900BABC98 /* CoreGraphics.framework */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		035B237A17AE84860020BBC9 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		03A44CA317AEA556006DE0C1 /* UM_LaundryOGProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UM_LaundryOGProtocols.h; sourceTree = "<group>"; };
 		269F0D3F160B9A7900BABC98 /* UM Laundry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UM Laundry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		269F0D43160B9A7900BABC98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		269F0D45160B9A7900BABC98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,6 +59,7 @@
 				269F0D44160B9A7900BABC98 /* UIKit.framework in Frameworks */,
 				269F0D46160B9A7900BABC98 /* Foundation.framework in Frameworks */,
 				269F0D48160B9A7900BABC98 /* CoreGraphics.framework in Frameworks */,
+				035B237B17AE84860020BBC9 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +86,7 @@
 		269F0D42160B9A7900BABC98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				035B237A17AE84860020BBC9 /* FacebookSDK.framework */,
 				269F0D43160B9A7900BABC98 /* UIKit.framework */,
 				269F0D45160B9A7900BABC98 /* Foundation.framework */,
 				269F0D47160B9A7900BABC98 /* CoreGraphics.framework */,
@@ -99,6 +104,7 @@
 				269F0D52160B9A7900BABC98 /* UM_LaundryAppDelegate.h */,
 				269F0D53160B9A7900BABC98 /* UM_LaundryAppDelegate.m */,
 				269F0D4A160B9A7900BABC98 /* Supporting Files */,
+				03A44CA317AEA556006DE0C1 /* UM_LaundryOGProtocols.h */,
 			);
 			path = "UM Laundry";
 			sourceTree = "<group>";
@@ -273,6 +279,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "UM Laundry/UM Laundry.entitlements";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Documents/FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UM Laundry/UM Laundry-Prefix.pch";
 				INFOPLIST_FILE = "UM Laundry/UM Laundry-Info.plist";
@@ -287,6 +297,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "UM Laundry/UM Laundry.entitlements";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Documents/FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UM Laundry/UM Laundry-Prefix.pch";
 				INFOPLIST_FILE = "UM Laundry/UM Laundry-Info.plist";
@@ -316,6 +330,7 @@
 				269F0D5F160B9A7900BABC98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
