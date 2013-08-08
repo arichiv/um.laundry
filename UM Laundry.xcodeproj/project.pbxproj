@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		035B237B17AE84860020BBC9 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035B237A17AE84860020BBC9 /* FacebookSDK.framework */; };
 		269F0D44160B9A7900BABC98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269F0D43160B9A7900BABC98 /* UIKit.framework */; };
 		269F0D46160B9A7900BABC98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269F0D45160B9A7900BABC98 /* Foundation.framework */; };
 		269F0D48160B9A7900BABC98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269F0D47160B9A7900BABC98 /* CoreGraphics.framework */; };
@@ -23,10 +22,10 @@
 		269F0D75160B9C3500BABC98 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 269F0D74160B9C3500BABC98 /* iTunesArtwork */; };
 		269F0DB8160BA6A800BABC98 /* UM_LaundryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 269F0DB5160BA6A800BABC98 /* UM_LaundryController.m */; };
 		269F0DB9160BA6A800BABC98 /* UM_LaundryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 269F0DB7160BA6A800BABC98 /* UM_LaundryModel.m */; };
+		26CA558917B28C4700562893 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CA558817B28C4700562893 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		035B237A17AE84860020BBC9 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		03A44CA317AEA556006DE0C1 /* UM_LaundryOGProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UM_LaundryOGProtocols.h; sourceTree = "<group>"; };
 		269F0D3F160B9A7900BABC98 /* UM Laundry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UM Laundry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		269F0D43160B9A7900BABC98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -49,6 +48,7 @@
 		269F0DB5160BA6A800BABC98 /* UM_LaundryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UM_LaundryController.m; sourceTree = "<group>"; };
 		269F0DB6160BA6A800BABC98 /* UM_LaundryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UM_LaundryModel.h; sourceTree = "<group>"; };
 		269F0DB7160BA6A800BABC98 /* UM_LaundryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UM_LaundryModel.m; sourceTree = "<group>"; };
+		26CA558817B28C4700562893 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				269F0D44160B9A7900BABC98 /* UIKit.framework in Frameworks */,
 				269F0D46160B9A7900BABC98 /* Foundation.framework in Frameworks */,
 				269F0D48160B9A7900BABC98 /* CoreGraphics.framework in Frameworks */,
-				035B237B17AE84860020BBC9 /* FacebookSDK.framework in Frameworks */,
+				26CA558917B28C4700562893 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 		269F0D42160B9A7900BABC98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				035B237A17AE84860020BBC9 /* FacebookSDK.framework */,
+				26CA558817B28C4700562893 /* FacebookSDK.framework */,
 				269F0D43160B9A7900BABC98 /* UIKit.framework */,
 				269F0D45160B9A7900BABC98 /* Foundation.framework */,
 				269F0D47160B9A7900BABC98 /* CoreGraphics.framework */,
@@ -242,8 +242,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PROVISIONING_PROFILE = "AAB59AD3-9D8A-4078-8AE2-B49A89416AB8";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AAB59AD3-9D8A-4078-8AE2-B49A89416AB8";
+				PROVISIONING_PROFILE = "0A3A4F20-C258-419C-A958-2467D0A6146F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0A3A4F20-C258-419C-A958-2467D0A6146F";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -258,8 +258,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Ari Chivukula";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ari Chivukula";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ari Chivukula (UTY92C3C8K)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ari Chivukula (UTY92C3C8K)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -267,8 +267,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "C1C274F0-2D87-4F3F-9BBC-35F70F7BD255";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C1C274F0-2D87-4F3F-9BBC-35F70F7BD255";
+				PROVISIONING_PROFILE = "23337FFF-66F6-4C01-8170-FF22EBBE7647";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "23337FFF-66F6-4C01-8170-FF22EBBE7647";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
@@ -282,6 +282,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Documents/FacebookSDK\"",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UM Laundry/UM Laundry-Prefix.pch";
@@ -300,6 +301,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Documents/FacebookSDK\"",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UM Laundry/UM Laundry-Prefix.pch";
