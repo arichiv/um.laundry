@@ -171,7 +171,7 @@
 }
 
 -(NSMutableArray*) buildingsForBase:(Item*)base {
-    NSMutableArray* array = [self JSONRequest: [baseURL stringByAppendingFormat:@"locations/0"] withName:@"building"];
+    NSMutableArray* array = [self JSONRequest: [baseURL stringByAppendingFormat:@"locations/%u", arc4random()] withName:@"building"];
     NSMutableArray* items = [NSMutableArray new];
     for (NSMutableArray* row in array) {
         int code = [[row objectAtIndex:1] intValue];
@@ -185,7 +185,7 @@
 }
 
 -(NSMutableArray*) roomsForBuilding:(Item*)building {
-    NSMutableArray* array = [self JSONRequest: [baseURL stringByAppendingFormat:@"rooms/%i/0", [building code]] withName:@"name"];
+    NSMutableArray* array = [self JSONRequest: [baseURL stringByAppendingFormat:@"rooms/%i/%u", [building code], arc4random()] withName:@"name"];
     NSMutableArray* items = [NSMutableArray new];
     for (NSMutableArray* row in array) {
         int code = [[row objectAtIndex:1] intValue];
@@ -201,7 +201,7 @@
 }
 
 -(NSMutableArray*) machinesForRooms:(Item*)room {
-    NSMutableArray* machines = [self HTMLRequest: [baseURL stringByAppendingFormat:@"report/%i/%i/0/0", [[room father] code], [room code]]];
+    NSMutableArray* machines = [self HTMLRequest: [baseURL stringByAppendingFormat:@"report/%i/%i/0/%u", [[room father] code], [room code], arc4random()]];
     NSMutableArray* array = [NSMutableArray new];
     for (NSMutableArray* machine in machines) {
         int code = [[machine objectAtIndex:0] intValue];
