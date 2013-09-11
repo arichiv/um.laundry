@@ -1,9 +1,9 @@
 //
-//  Controller.h
+//  UM_LaundryController.h
 //  UM Laundry
 //
 //  Created by Ari Chivukula on 8/7/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2013 Ari Chivukula. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

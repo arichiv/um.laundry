@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0450"
+   LastUpgradeVersion = "0500"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "269F0D3E160B9A7900BABC98"
+               BlueprintIdentifier = "267F4FC817E001A80044900C"
                BuildableName = "UM Laundry.app"
                BlueprintName = "UM Laundry"
                ReferencedContainer = "container:UM Laundry.xcodeproj">
@@ -28,11 +28,21 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "267F4FE317E001A80044900C"
+               BuildableName = "UM LaundryTests.xctest"
+               BlueprintName = "UM LaundryTests"
+               ReferencedContainer = "container:UM Laundry.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "269F0D3E160B9A7900BABC98"
+            BlueprintIdentifier = "267F4FC817E001A80044900C"
             BuildableName = "UM Laundry.app"
             BlueprintName = "UM Laundry"
             ReferencedContainer = "container:UM Laundry.xcodeproj">
@@ -51,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "269F0D3E160B9A7900BABC98"
+            BlueprintIdentifier = "267F4FC817E001A80044900C"
             BuildableName = "UM Laundry.app"
             BlueprintName = "UM Laundry"
             ReferencedContainer = "container:UM Laundry.xcodeproj">
@@ -69,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "269F0D3E160B9A7900BABC98"
+            BlueprintIdentifier = "267F4FC817E001A80044900C"
             BuildableName = "UM Laundry.app"
             BlueprintName = "UM Laundry"
             ReferencedContainer = "container:UM Laundry.xcodeproj">

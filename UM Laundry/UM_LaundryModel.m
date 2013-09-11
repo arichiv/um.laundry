@@ -1,3 +1,11 @@
+//
+//  UM_LaundryModel.m
+//  UM Laundry
+//
+//  Created by Ari Chivukula on 9/10/13.
+//  Copyright (c) 2013 Ari Chivukula. All rights reserved.
+//
+
 #import "UM_LaundryModel.h"
 #import "UM_LaundryController.h"
 

@@ -1,3 +1,11 @@
+//
+//  UM_LaundryAppDelegate.m
+//  UM Laundry
+//
+//  Created by Ari Chivukula on 9/10/13.
+//  Copyright (c) 2013 Ari Chivukula. All rights reserved.
+//
+
 #import <FacebookSDK/FacebookSDK.h>
 
 #import "UM_LaundryAppDelegate.h"

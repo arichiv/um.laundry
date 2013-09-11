@@ -1,9 +1,9 @@
 //
-//  Controller.m
+//  UM_LaundryController.m
 //  UM Laundry
 //
 //  Created by Ari Chivukula on 8/7/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2013 Ari Chivukula. All rights reserved.
 //
 
 #import <FacebookSDK/FacebookSDK.h>
@@ -54,7 +54,6 @@
     if ([father type] == ItemRoom) {
         NSArray *categories = [NSArray arrayWithObjects:@"All", @"Available", @"In Use", nil];
         UISegmentedControl* controlView = [[UISegmentedControl alloc] initWithItems:categories];
-        [controlView setSegmentedControlStyle:UISegmentedControlStyleBar];
         [controlView setSelectedSegmentIndex:0];
         [controlView addTarget:self action:@selector(setGroup:) forControlEvents:UIControlEventValueChanged];
         UIBarButtonItem* seg = [[UIBarButtonItem alloc] initWithCustomView:controlView];
@@ -120,7 +119,7 @@
 }
 
 -(void) setGroup:(UISegmentedControl *)sender {
-    status = [sender selectedSegmentIndex];
+    status = (int)[sender selectedSegmentIndex];
     [self updateDisplay];
 }
 
