@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0343F9661821A912004AECB0 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0343F9651821A912004AECB0 /* FacebookSDK.framework */; };
 		267F4FCD17E001A80044900C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F4FCC17E001A80044900C /* Foundation.framework */; };
 		267F4FCF17E001A80044900C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F4FCE17E001A80044900C /* CoreGraphics.framework */; };
 		267F4FD117E001A80044900C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F4FD017E001A80044900C /* UIKit.framework */; };
@@ -20,7 +21,6 @@
 		267F500017E002500044900C /* UM_LaundryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267F4FFC17E002500044900C /* UM_LaundryController.m */; };
 		267F500117E002500044900C /* UM_LaundryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 267F4FFE17E002500044900C /* UM_LaundryModel.m */; };
 		26E896A917E0094100225436 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 26E896A817E0094100225436 /* iTunesArtwork */; };
-		26E896AC17E00B1E00225436 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E896AB17E00B1E00225436 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0343F9651821A912004AECB0 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		267F4FC917E001A80044900C /* UM Laundry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UM Laundry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		267F4FCC17E001A80044900C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		267F4FCE17E001A80044900C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,7 +55,6 @@
 		267F4FFF17E002500044900C /* UM_LaundryOGProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UM_LaundryOGProtocols.h; sourceTree = "<group>"; };
 		26E896A817E0094100225436 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = ../iTunesArtwork; sourceTree = "<group>"; };
 		26E896AA17E0095100225436 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		26E896AB17E00B1E00225436 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				267F4FCF17E001A80044900C /* CoreGraphics.framework in Frameworks */,
-				26E896AC17E00B1E00225436 /* FacebookSDK.framework in Frameworks */,
+				0343F9661821A912004AECB0 /* FacebookSDK.framework in Frameworks */,
 				267F4FD117E001A80044900C /* UIKit.framework in Frameworks */,
 				267F4FCD17E001A80044900C /* Foundation.framework in Frameworks */,
 			);
@@ -103,7 +103,7 @@
 		267F4FCB17E001A80044900C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				26E896AB17E00B1E00225436 /* FacebookSDK.framework */,
+				0343F9651821A912004AECB0 /* FacebookSDK.framework */,
 				267F4FCC17E001A80044900C /* Foundation.framework */,
 				267F4FCE17E001A80044900C /* CoreGraphics.framework */,
 				267F4FD017E001A80044900C /* UIKit.framework */,
@@ -356,23 +356,24 @@
 		267F4FF617E001A80044900C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/arichiv/Desktop/um.laundry,
 					/Users/arichiv/Documents/FacebookSDK,
+					/Users/aric/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UM Laundry/UM Laundry-Prefix.pch";
 				INFOPLIST_FILE = "UM Laundry/UM Laundry-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7AB53414-D358-46E1-A295-A1F8FF586BAB";
-				VALID_ARCHS = "armv7 armv7s";
+				PROVISIONING_PROFILE = "9B32AC63-3BAF-4372-846E-C3F3D99535ED";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -380,23 +381,24 @@
 		267F4FF717E001A80044900C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/arichiv/Desktop/um.laundry,
 					/Users/arichiv/Documents/FacebookSDK,
+					/Users/aric/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UM Laundry/UM Laundry-Prefix.pch";
 				INFOPLIST_FILE = "UM Laundry/UM Laundry-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7AB53414-D358-46E1-A295-A1F8FF586BAB";
-				VALID_ARCHS = "armv7 armv7s";
+				PROVISIONING_PROFILE = "9B32AC63-3BAF-4372-846E-C3F3D99535ED";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
