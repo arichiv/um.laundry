@@ -7,34 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0343F9661821A912004AECB0 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0343F9651821A912004AECB0 /* FacebookSDK.framework */; };
+		036B3C0A19C901DC00F5B26D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036B3C0919C901DC00F5B26D /* Media.xcassets */; };
+		036B3C0C19C903B300F5B26D /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036B3C0B19C903B300F5B26D /* Launch Screen.xib */; };
+		036B3C0E19C9119900F5B26D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036B3C0D19C9119900F5B26D /* FacebookSDK.framework */; };
 		267F4FCD17E001A80044900C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F4FCC17E001A80044900C /* Foundation.framework */; };
 		267F4FCF17E001A80044900C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F4FCE17E001A80044900C /* CoreGraphics.framework */; };
 		267F4FD117E001A80044900C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F4FD017E001A80044900C /* UIKit.framework */; };
 		267F4FD717E001A80044900C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 267F4FD517E001A80044900C /* InfoPlist.strings */; };
 		267F4FD917E001A80044900C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 267F4FD817E001A80044900C /* main.m */; };
 		267F4FDD17E001A80044900C /* UM_LaundryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267F4FDC17E001A80044900C /* UM_LaundryAppDelegate.m */; };
-		267F4FDF17E001A80044900C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267F4FDE17E001A80044900C /* Images.xcassets */; };
-		267F4FE617E001A80044900C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F4FE517E001A80044900C /* XCTest.framework */; };
-		267F4FE717E001A80044900C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F4FCC17E001A80044900C /* Foundation.framework */; };
-		267F4FE817E001A80044900C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F4FD017E001A80044900C /* UIKit.framework */; };
 		267F500017E002500044900C /* UM_LaundryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267F4FFC17E002500044900C /* UM_LaundryController.m */; };
 		267F500117E002500044900C /* UM_LaundryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 267F4FFE17E002500044900C /* UM_LaundryModel.m */; };
 		26E896A917E0094100225436 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 26E896A817E0094100225436 /* iTunesArtwork */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		267F4FE917E001A80044900C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 267F4FC117E001A80044900C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 267F4FC817E001A80044900C;
-			remoteInfo = "UM Laundry";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0343F9651821A912004AECB0 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		036B3C0919C901DC00F5B26D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
+		036B3C0B19C903B300F5B26D /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		036B3C0D19C9119900F5B26D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		267F4FC917E001A80044900C /* UM Laundry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UM Laundry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		267F4FCC17E001A80044900C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		267F4FCE17E001A80044900C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,9 +35,6 @@
 		267F4FDA17E001A80044900C /* UM Laundry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UM Laundry-Prefix.pch"; sourceTree = "<group>"; };
 		267F4FDB17E001A80044900C /* UM_LaundryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UM_LaundryAppDelegate.h; sourceTree = "<group>"; };
 		267F4FDC17E001A80044900C /* UM_LaundryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UM_LaundryAppDelegate.m; sourceTree = "<group>"; };
-		267F4FDE17E001A80044900C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		267F4FE417E001A80044900C /* UM LaundryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UM LaundryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		267F4FE517E001A80044900C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		267F4FFB17E002500044900C /* UM_LaundryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UM_LaundryController.h; sourceTree = "<group>"; };
 		267F4FFC17E002500044900C /* UM_LaundryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UM_LaundryController.m; sourceTree = "<group>"; };
 		267F4FFD17E002500044900C /* UM_LaundryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UM_LaundryModel.h; sourceTree = "<group>"; };
@@ -63,19 +50,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				267F4FCF17E001A80044900C /* CoreGraphics.framework in Frameworks */,
-				0343F9661821A912004AECB0 /* FacebookSDK.framework in Frameworks */,
+				036B3C0E19C9119900F5B26D /* FacebookSDK.framework in Frameworks */,
 				267F4FD117E001A80044900C /* UIKit.framework in Frameworks */,
 				267F4FCD17E001A80044900C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		267F4FE117E001A80044900C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				267F4FE617E001A80044900C /* XCTest.framework in Frameworks */,
-				267F4FE817E001A80044900C /* UIKit.framework in Frameworks */,
-				267F4FE717E001A80044900C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				267F4FC917E001A80044900C /* UM Laundry.app */,
-				267F4FE417E001A80044900C /* UM LaundryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,11 +79,10 @@
 		267F4FCB17E001A80044900C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0343F9651821A912004AECB0 /* FacebookSDK.framework */,
+				036B3C0D19C9119900F5B26D /* FacebookSDK.framework */,
 				267F4FCC17E001A80044900C /* Foundation.framework */,
 				267F4FCE17E001A80044900C /* CoreGraphics.framework */,
 				267F4FD017E001A80044900C /* UIKit.framework */,
-				267F4FE517E001A80044900C /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +90,7 @@
 		267F4FD217E001A80044900C /* UM Laundry */ = {
 			isa = PBXGroup;
 			children = (
+				036B3C0B19C903B300F5B26D /* Launch Screen.xib */,
 				267F4FFB17E002500044900C /* UM_LaundryController.h */,
 				267F4FFC17E002500044900C /* UM_LaundryController.m */,
 				267F4FFD17E002500044900C /* UM_LaundryModel.h */,
@@ -122,7 +98,6 @@
 				267F4FFF17E002500044900C /* UM_LaundryOGProtocols.h */,
 				267F4FDB17E001A80044900C /* UM_LaundryAppDelegate.h */,
 				267F4FDC17E001A80044900C /* UM_LaundryAppDelegate.m */,
-				267F4FDE17E001A80044900C /* Images.xcassets */,
 				267F4FD317E001A80044900C /* Supporting Files */,
 			);
 			path = "UM Laundry";
@@ -131,6 +106,7 @@
 		267F4FD317E001A80044900C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				036B3C0919C901DC00F5B26D /* Media.xcassets */,
 				26E896AA17E0095100225436 /* README.md */,
 				26E896A817E0094100225436 /* iTunesArtwork */,
 				267F4FD417E001A80044900C /* UM Laundry-Info.plist */,
@@ -161,24 +137,6 @@
 			productReference = 267F4FC917E001A80044900C /* UM Laundry.app */;
 			productType = "com.apple.product-type.application";
 		};
-		267F4FE317E001A80044900C /* UM LaundryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 267F4FF817E001A80044900C /* Build configuration list for PBXNativeTarget "UM LaundryTests" */;
-			buildPhases = (
-				267F4FE017E001A80044900C /* Sources */,
-				267F4FE117E001A80044900C /* Frameworks */,
-				267F4FE217E001A80044900C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				267F4FEA17E001A80044900C /* PBXTargetDependency */,
-			);
-			name = "UM LaundryTests";
-			productName = "UM LaundryTests";
-			productReference = 267F4FE417E001A80044900C /* UM LaundryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -186,19 +144,16 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = UM_Laundry;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Ari Chivukula";
 				TargetAttributes = {
 					267F4FC817E001A80044900C = {
 						DevelopmentTeam = UTY92C3C8K;
 						SystemCapabilities = {
 							com.apple.DataProtection = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
-					};
-					267F4FE317E001A80044900C = {
-						TestTargetID = 267F4FC817E001A80044900C;
 					};
 				};
 			};
@@ -215,7 +170,6 @@
 			projectRoot = "";
 			targets = (
 				267F4FC817E001A80044900C /* UM Laundry */,
-				267F4FE317E001A80044900C /* UM LaundryTests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,15 +180,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				267F4FD717E001A80044900C /* InfoPlist.strings in Resources */,
+				036B3C0C19C903B300F5B26D /* Launch Screen.xib in Resources */,
+				036B3C0A19C901DC00F5B26D /* Media.xcassets in Resources */,
 				26E896A917E0094100225436 /* iTunesArtwork in Resources */,
-				267F4FDF17E001A80044900C /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		267F4FE217E001A80044900C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,22 +200,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		267F4FE017E001A80044900C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		267F4FEA17E001A80044900C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 267F4FC817E001A80044900C /* UM Laundry */;
-			targetProxy = 267F4FE917E001A80044900C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		267F4FD517E001A80044900C /* InfoPlist.strings */ = {
@@ -285,7 +218,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -298,7 +230,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ari Chivukula (UTY92C3C8K)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -316,6 +249,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "55ec2a96-50e5-449a-a878-d1829705dc28";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -324,7 +258,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -337,7 +270,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ari Chivukula (UTY92C3C8K)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -348,6 +282,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "55ec2a96-50e5-449a-a878-d1829705dc28";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -356,23 +291,20 @@
 		267F4FF617E001A80044900C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/arichiv/Desktop/um.laundry,
-					/Users/arichiv/Documents/FacebookSDK,
 					/Users/aric/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UM Laundry/UM Laundry-Prefix.pch";
 				INFOPLIST_FILE = "UM Laundry/UM Laundry-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9B32AC63-3BAF-4372-846E-C3F3D99535ED";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
@@ -381,67 +313,22 @@
 		267F4FF717E001A80044900C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/arichiv/Desktop/um.laundry,
-					/Users/arichiv/Documents/FacebookSDK,
 					/Users/aric/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UM Laundry/UM Laundry-Prefix.pch";
 				INFOPLIST_FILE = "UM Laundry/UM Laundry-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9B32AC63-3BAF-4372-846E-C3F3D99535ED";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		267F4FF917E001A80044900C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UM Laundry.app/UM Laundry";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UM Laundry/UM Laundry-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "UM LaundryTests/UM LaundryTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		267F4FFA17E001A80044900C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UM Laundry.app/UM Laundry";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UM Laundry/UM Laundry-Prefix.pch";
-				INFOPLIST_FILE = "UM LaundryTests/UM LaundryTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -462,15 +349,6 @@
 			buildConfigurations = (
 				267F4FF617E001A80044900C /* Debug */,
 				267F4FF717E001A80044900C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		267F4FF817E001A80044900C /* Build configuration list for PBXNativeTarget "UM LaundryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				267F4FF917E001A80044900C /* Debug */,
-				267F4FFA17E001A80044900C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

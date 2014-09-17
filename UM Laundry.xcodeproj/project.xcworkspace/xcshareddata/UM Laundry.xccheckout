@@ -10,22 +10,26 @@
 	<string>UM Laundry</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>965DFD6B10646883C52BBA9E24C9C95EDEBE82DB</key>
+		<string>https://github.com/arichiv/um.laundry.git</string>
 		<key>97BC4B43-A8FF-44C2-A1A4-D1D8FF481DEF</key>
 		<string>https://github.com/arichiv/um.laundry.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>UM Laundry.xcodeproj/project.xcworkspace</string>
+	<string>UM Laundry.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>97BC4B43-A8FF-44C2-A1A4-D1D8FF481DEF</key>
+		<key>965DFD6B10646883C52BBA9E24C9C95EDEBE82DB</key>
 		<string>../..</string>
+		<key>97BC4B43-A8FF-44C2-A1A4-D1D8FF481DEF</key>
+		<string>../../../um</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/arichiv/um.laundry.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>97BC4B43-A8FF-44C2-A1A4-D1D8FF481DEF</string>
+	<string>965DFD6B10646883C52BBA9E24C9C95EDEBE82DB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>97BC4B43-A8FF-44C2-A1A4-D1D8FF481DEF</string>
 			<key>IDESourceControlWCCName</key>
 			<string>um</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>965DFD6B10646883C52BBA9E24C9C95EDEBE82DB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>um.laundry</string>
 		</dict>
 	</array>
 </dict>
