@@ -1,4 +1,4 @@
 language: objective-c
 osx_image: xcode9.3
-xcode_project: UM\ Laundry.xcodeproj
-xcode_scheme: UM\ Laundry
+script:
+   - xcodebuild clean build -sdk iphonesimulator -workspace UM\ Laundry.xcworkspace -scheme UM\ Laundry CODE_SIGNING_REQUIRED=NO
