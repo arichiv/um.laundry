@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		024D9CDB20BDF43500793CF4 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 024D9CDA20BDF43500793CF4 /* iTunesArtwork.png */; };
 		036B3C0A19C901DC00F5B26D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036B3C0919C901DC00F5B26D /* Media.xcassets */; };
 		036B3C0C19C903B300F5B26D /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036B3C0B19C903B300F5B26D /* Launch Screen.xib */; };
 		267F4FCD17E001A80044900C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F4FCC17E001A80044900C /* Foundation.framework */; };
@@ -21,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		024D9CDA20BDF43500793CF4 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = SOURCE_ROOT; };
 		036B3C0919C901DC00F5B26D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
 		036B3C0B19C903B300F5B26D /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		267F4FC917E001A80044900C /* UM Laundry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UM Laundry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +98,6 @@
 		267F4FD317E001A80044900C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				024D9CDA20BDF43500793CF4 /* iTunesArtwork.png */,
 				036B3C0919C901DC00F5B26D /* Media.xcassets */,
 				26E896AA17E0095100225436 /* README.md */,
 				267F4FD417E001A80044900C /* UM Laundry-Info.plist */,
@@ -175,7 +172,6 @@
 			files = (
 				267F4FD717E001A80044900C /* InfoPlist.strings in Resources */,
 				036B3C0C19C903B300F5B26D /* Launch Screen.xib in Resources */,
-				024D9CDB20BDF43500793CF4 /* iTunesArtwork.png in Resources */,
 				036B3C0A19C901DC00F5B26D /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
