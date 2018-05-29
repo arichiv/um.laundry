@@ -12,7 +12,7 @@ iTunes Store Page: https://itunes.apple.com/us/app/um-laundry/id455514358
 
 # API Information
 
-AJAX JS URL: http://housing.umich.edu/sites/www.housing.umich.edu/modules/hsg_laundry/hsg-laundry-ajax2.js
+AJAX JS URL: http://www.housing.umich.edu/sites/all/modules/hsg_laundry/hsg-laundry-ajax2.js
 
 ## getBuildings() 
 
