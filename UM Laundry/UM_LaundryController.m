@@ -6,13 +6,9 @@
 //  Copyright (c) 2013 Ari Chivukula. All rights reserved.
 //
 
-#import <FacebookSDK/FacebookSDK.h>
-#import <FacebookSDK/FBRequest.h>
-
 #import "UM_LaundryController.h"
 #import "UM_LaundryModel.h"
 #import "UM_LaundryAppDelegate.h"
-#import "UM_LaundryOGProtocols.h"
 
 @implementation UM_LaundryController
 
@@ -147,13 +143,7 @@
 }
 
 -(void) displayBaseOptions {
-    NSString* fbInteraction = NULL;
-    if (FBSession.activeSession.isOpen) {
-        fbInteraction = @"Log out of Facebook";
-    } else {
-        fbInteraction = @"Log into Facebook";
-    }
-    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:@"Clear Reminders" otherButtonTitles:@"Washer Reminder (38min)", @"Dryer Reminder (60min)", fbInteraction, nil];
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:@"Clear Reminders" otherButtonTitles:@"Washer Reminder (38min)", @"Dryer Reminder (60min)", nil];
     [actionSheet showInView:self.view];
 
 }
@@ -187,15 +177,6 @@
         else if (buttonIndex == 2) {
             [[[UIAlertView alloc] initWithTitle:@"Added Dryer Reminder" message:@"Will go off in 60 minutes" delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles: nil] show];
             [Push addLocalNotificationWithMessage:@"Dryer" atTime:60];
-        } else if (buttonIndex == 3) {
-            if (FBSession.activeSession.isOpen) {
-                [FBSession.activeSession closeAndClearTokenInformation];
-            } else {
-                [FBSession openActiveSessionWithPublishPermissions:[NSArray arrayWithObjects:@"publish_actions", nil]
-                                                   defaultAudience:FBSessionDefaultAudienceFriends
-                                                      allowLoginUI:YES
-                                                 completionHandler:nil];
-            }
         }
     }
     else if ([father type] == ItemRoom) {
@@ -220,17 +201,6 @@
 -(void) alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
     if (buttonIndex == 1) {
         [Push addLocalNotificationWithMessage:[selected alertMessage] atTime:[selected time]];
-        if (FBSession.activeSession.isOpen) {
-            NSString *url = @"http://arichiv.com/og_laundry_machine?location=";
-            NSString *message = [[selected alertMessage] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-            id<OGLaundryMachine> laundryMachine = (id<OGLaundryMachine>)[FBGraphObject graphObject];
-            laundryMachine.url = [url stringByAppendingString:message];
-            id<OGUseLaundryMachine> action = (id<OGUseLaundryMachine>)[FBGraphObject graphObject];
-            action.laundry_machine = laundryMachine;
-            [FBRequestConnection startForPostWithGraphPath:@"me/umlaundry:use"
-                                               graphObject:action
-                                         completionHandler:nil];
-        }
     }
 }
 

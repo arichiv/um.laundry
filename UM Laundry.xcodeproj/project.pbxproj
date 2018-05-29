@@ -37,7 +37,6 @@
 		267F4FFC17E002500044900C /* UM_LaundryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UM_LaundryController.m; sourceTree = "<group>"; };
 		267F4FFD17E002500044900C /* UM_LaundryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UM_LaundryModel.h; sourceTree = "<group>"; };
 		267F4FFE17E002500044900C /* UM_LaundryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UM_LaundryModel.m; sourceTree = "<group>"; };
-		267F4FFF17E002500044900C /* UM_LaundryOGProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UM_LaundryOGProtocols.h; sourceTree = "<group>"; };
 		26E896A817E0094100225436 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = ../iTunesArtwork; sourceTree = "<group>"; };
 		26E896AA17E0095100225436 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,7 +90,6 @@
 				267F4FFC17E002500044900C /* UM_LaundryController.m */,
 				267F4FFD17E002500044900C /* UM_LaundryModel.h */,
 				267F4FFE17E002500044900C /* UM_LaundryModel.m */,
-				267F4FFF17E002500044900C /* UM_LaundryOGProtocols.h */,
 				267F4FDB17E001A80044900C /* UM_LaundryAppDelegate.h */,
 				267F4FDC17E001A80044900C /* UM_LaundryAppDelegate.m */,
 				267F4FD317E001A80044900C /* Supporting Files */,
